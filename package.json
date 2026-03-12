@@ -1,0 +1,17 @@
+{
+  "name": "@uni-app-store/root",
+  "private": true,
+  "scripts": {
+    "dev:miniapp": "pnpm --filter @uni-app-store/miniapp dev:mp-weixin",
+    "dev:admin": "pnpm --filter @uni-app-store/admin dev",
+    "dev:gateway": "pnpm --filter @uni-app-store/api-gateway start:dev",
+    "build:admin": "pnpm --filter @uni-app-store/admin build",
+    "db:migrate": "pnpm --filter @uni-app-store/api-gateway prisma:migrate",
+    "sdk:build": "pnpm --filter @uni-app-store/api-sdk build",
+    "test": "pnpm -r test"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "paths": {
+      "@uni-app-store/api-sdk": ["./packages/api-sdk/src/index.ts"],
+      "@uni-app-store/config": ["./packages/config/src/index.ts"],
+      "@uni-app-store/utils": ["./packages/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "**/dist/**"]
+}

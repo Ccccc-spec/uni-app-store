@@ -55,13 +55,24 @@ Thumbs.db
 # ========================
 # Prisma
 # ========================
-store-test-backend/generated/
+backend/api-gateway/generated/
 
 # ========================
 # uni-app
 # ========================
-store-test-web/unpackage/
-store-test-web/dist/
+apps/miniapp/unpackage/
+apps/miniapp/dist/
+
+# ========================
+# Python (agent-service)
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.python-version
+agent-service/.env
 
 # ========================
 # 测试覆盖率
