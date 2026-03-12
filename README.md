@@ -142,6 +142,7 @@ pnpm test            # 运行所有测试
 
 - [架构文档](./docs/architecture.md)
 - [API 设计规范](./docs/api-design.md)
+- [Git 提交规范](./docs/git-convention.md)
 - [API Swagger](http://localhost:3000/api/docs)（运行时访问）
 
 ## 许可证
